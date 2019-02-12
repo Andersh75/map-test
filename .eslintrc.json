@@ -1,0 +1,40 @@
+{
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "parser": "babel-eslint",
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "printWidth": 120,
+        "trailingComma": "es5",
+        "tabWidth": 2,
+        "semi": false
+      }
+    ],
+    "quotes": ["error", "backtick"],
+    "no-unused-vars": "off",
+    "no-console": "off"
+  },
+  "globals": {
+    "firebase": false,
+    "console": false,
+    "customElements": false,
+    "CustomEvent": false,
+    "require": false,
+    "process": false,
+    "__dirname": false,
+    "document": false,
+    "FileReader": false,
+    "Image": false,
+    "DataView": false,
+    "TextDecoder": false,
+    "window": false,
+    "atob": false,
+    "btoa": false,
+    "ArrayBuffer": false,
+    "Uint8Array": false,
+    "Blob": false,
+    "Promise": false,
+    "ol": false
+  }
+}

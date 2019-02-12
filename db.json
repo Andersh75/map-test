@@ -1,0 +1,43 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": "14",
+      "title": "string",
+      "author": "0"
+    },
+    {
+      "id": "15",
+      "title": "femton",
+      "author": "0"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "ipaddresses": [
+    {
+      "id": "1",
+      "ip": "12345678990",
+      "x": 37.41,
+      "y": 8.82
+    },
+    {
+      "id": "2",
+      "ip": "324234234234",
+      "x": 37.41,
+      "y": 8.82
+    }
+  ]
+}
